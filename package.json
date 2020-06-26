@@ -1,0 +1,24 @@
+{
+  "name": "@bigbadweb/service-registry",
+  "version": "1.0.0",
+  "description": "A service registry as a node module",
+  "main": "services.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigbadweb/service-registry.git"
+  },
+  "keywords": [
+    "services",
+    "ioc",
+    "registry"
+  ],
+  "author": "Matt Stabeler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigbadweb/service-registry/issues"
+  },
+  "homepage": "https://github.com/bigbadweb/service-registry#readme"
+}
