@@ -4,7 +4,8 @@
   "description": "A service registry as a node module",
   "main": "services.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version --commit-all"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/bigbadweb/service-registry/issues"
   },
-  "homepage": "https://github.com/bigbadweb/service-registry#readme"
+  "homepage": "https://github.com/bigbadweb/service-registry#readme",
+  "devDependencies": {
+    "standard-version": "^9.3.2"
+  }
 }
