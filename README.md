@@ -2,8 +2,26 @@
 
 # Service Registry
 
+A simple service registry/IoC container for Node.js with TypeScript support.
+
+## Installation
 
 `npm install --save https://github.com/bigbadweb/service-registry.git`
+
+## TypeScript Support
+
+This module is written in TypeScript and includes type definitions. TypeScript users get full IntelliSense and type checking:
+
+```typescript
+import services from '@bigbadweb/service-registry';
+// or
+import { Services } from '@bigbadweb/service-registry';
+
+// Create a custom instance
+const myServices = new Services();
+```
+
+## Usage
 
 _services/index.js_
 ```services/index.js
